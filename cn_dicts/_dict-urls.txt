@@ -1,0 +1,4 @@
+维基百科
+https://github.com/felixonmars/fcitx5-pinyin-zhwiki
+萌娘百科
+https://github.com/outloudvi/mw2fcitx
