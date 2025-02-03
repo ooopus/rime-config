@@ -2,6 +2,7 @@
 # vim: set sw=2 sts=2 et:
 # encoding: utf-8
 # https://github.com/gkovacs/rime-japanese
+# with some modifications
 
 schema:
   schema_id: japanese
@@ -16,11 +17,11 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    states: [ 中, 西 ]
   - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+    states: [ 半, 全 ]
+  - name: traditionalization
+    states: [ 漢, 汉 ]
     reset: 0
   #- options: [jp_variants, zh_simp, zh_tw ]
   #- options: [zh_simp, zh_tw ]
@@ -30,7 +31,7 @@ switches:
   #    - 字形 → 大陸
   #    - 字形 → 台灣
   - name: ascii_punct
-    states: [ 。，, ．， ]
+    states: [ ¥, $ ]
 
 engine:
   processors:
@@ -197,6 +198,9 @@ putonghua_to_kanji_reverse_lookup:
 # simplifier:
 #  option_name: jp_variants
 #  opencc_config: jp_t2s.json
+
+simplifier:
+  option_name: traditionalization  # 对应 switches 中的 name
 
 reverse_lookup:
   dictionary: stroke
