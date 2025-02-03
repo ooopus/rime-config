@@ -6,3 +6,4 @@ patch:
     - schema: rime_ice               # 雾凇拼音（全拼）
     - schema: double_pinyin_flypy    # 小鹤双拼
     - schema: japanese               # 日文
+    - schema: frost                  # 霜
