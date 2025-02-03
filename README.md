@@ -1,3 +1,19 @@
+# Nanami's Rime Config
+
+本配置文件基于 [iDvel/rime-ice](https://github.com/iDvel/rime-ice) 修改，添加了一些个人习惯的配置。
+为方便合并上流更新，本仓库对 `rime-ice` 的所有修改都在 `*.custom.yaml` 文件中。
+
+## 变更
+
+- 移除了我不使用的输入方案
+- 添加了 Octogram
+- 添加了输入方案 「霜」，为我基于小鹤双拼修改，混合了中文与日文
+- 添加了日文输入方案，[gkovacs/rime-japanese](https://github.com/gkovacs/rime-japanese)
+
+# 以下为原 README 内容
+
+---
+
 # 雾凇拼音
 
 [![License: GPL 3.0](https://img.shields.io/badge/License-GPL--3.0--only-34ad9b)](https://www.gnu.org/licenses/gpl-3.0.txt)
