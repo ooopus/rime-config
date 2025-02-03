@@ -204,7 +204,7 @@ japanese:
   dictionary: japanese
   enable_sentence: false
   enable_user_dict: false
-  initial_quality: 1.1
+  initial_quality: 0.8
   comment_format:
     - xform/.*//
 
