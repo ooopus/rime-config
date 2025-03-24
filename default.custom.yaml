@@ -7,3 +7,4 @@ patch:
     - schema: double_pinyin_flypy    # 小鹤双拼
     - schema: japanese               # 日文
     - schema: frost                  # 霜
+    - schema: udonese                # 乌冬语
