@@ -11,7 +11,7 @@ schema:
   author:
     - ensigma96 <ensigma96@gmail.com>
   dependencies:
-    - terra_pinyin.extended # for using reverse lookup
+    - rime-ice # for using reverse lookup
     - stroke
 
 switches:
