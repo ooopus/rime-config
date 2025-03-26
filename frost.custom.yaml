@@ -1,2 +1,2 @@
 patch:
-  __include: grammar:/amz
+  __include: grammar.yaml:/amz

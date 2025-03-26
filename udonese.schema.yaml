@@ -24,6 +24,9 @@ engine:
   filters:
     - uniquifier
 
+key_binder:
+  import_preset: default
+
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz;"
   delimiter: " '"
