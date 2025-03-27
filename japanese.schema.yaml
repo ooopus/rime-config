@@ -184,7 +184,13 @@ putonghua_to_kanji_reverse_lookup:
 
 punctuator:
   import_preset: default
-
+  full_shape:
+    " ": {commit: "　"}  # 全角空格
+    ",": {commit: "、"}  # 全角顿号
+  half_shape:
+    " ": {commit: "　"}  # 全角空格
+    ",": {commit: "、"}  # 全角顿号
+  
 key_binder:
   import_preset: default
 
